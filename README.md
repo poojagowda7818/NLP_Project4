@@ -11,3 +11,15 @@ You can find two directory as follows:
 2) Experiment_direction
     a) Transformer models
     b) amount of data affect the learning of irregular past tense forms
+    
+       
+
+Steps to be added for following topics: 
+1) How to install all dependencies 
+2) How to preprocess the data so it is in the correct format 
+3) How to train the models on the data 
+4) How to use one of your already trained models to predict unseen data 
+5) How to evaluate the output 
+
+
+
