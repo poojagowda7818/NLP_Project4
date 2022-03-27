@@ -1,4 +1,4 @@
-# NLP_Project4
+# Natural languauge Processing(LIX001M05)_Project4, University of Groningen
 
 # Team Members:
  1) Pooja Gowda S4410963
