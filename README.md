@@ -6,7 +6,7 @@
  3) Ayça Avcı S4505972
 
 
-You can find two file as follows:
+You can find two directory as follows:
 1) Experiment_replication
 2) Experiment_direction
     a) Transformer models
