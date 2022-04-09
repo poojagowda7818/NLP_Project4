@@ -15,11 +15,13 @@ You can find two directory as follows:
        
 
 Steps to be added for following topics: 
-1) How to install all dependencies 
-2) How to preprocess the data so it is in the correct format 
-3) How to train the models on the data 
-4) How to use one of your already trained models to predict unseen data 
-5) How to evaluate the output 
+1) Run following command to install OpenNMT package:
+          # !pip install OpenNMT-py    
+2) How to preprocess the data so it is in the correct format
+         # !onmt_build_vocab -config config-exp1.yaml -n_sample 10000 
+4) How to train the models on the data 
+5) How to use one of your already trained models to predict unseen data 
+6) How to evaluate the output 
 
 
 
