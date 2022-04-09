@@ -16,17 +16,18 @@
 
 # Steps to be added for following topics: 
 1) Run following command to install OpenNMT package:
-          !pip install OpenNMT-py    
-2) To preprocess the data so it is in the correct format, run the following command: 
-         !onmt_build_vocab -config config-exp1.yaml -n_sample 10000 
-3) How to train the models on the data:
-         !onmt_train -config config-exp1.yaml
-6) How to use one of your already trained models to predict unseen data
-         !onmt_translate -model experiment_1/run/model_step_1000.pt -src experiment_1/src_test.txt -output experiment_1/test-decoded.txt -gpu 0 -verbose -beam_size 12
-8) How to evaluate the output 
-         import tensorboard
-         %load_ext tensorboard
-         %tensorboard --logdir logs
+          !pip install OpenNMT-py   
+          
+2)!onmt_build_vocab -config config-exp1.yaml -n_sample 10000 
+
+3)!onmt_train -config config-exp1.yaml
+
+4)!onmt_translate -model experiment_1/run/model_step_1000.pt -src experiment_1/src_test.txt -output experiment_1/test-decoded.txt -gpu 0 -verbose -beam_size 12
+         
+8)  import tensorboard
+    %load_ext tensorboard
+    %tensorboard --logdir logs
+        
 
 
 
