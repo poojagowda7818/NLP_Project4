@@ -24,7 +24,7 @@
 
 4)!onmt_translate -model experiment_1/run/model_step_1000.pt -src experiment_1/src_test.txt -output experiment_1/test-decoded.txt -gpu 0 -verbose -beam_size 12
          
-8)  import tensorboard
+5)  import tensorboard
     %load_ext tensorboard
     %tensorboard --logdir logs
         
