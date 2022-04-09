@@ -1,0 +1,39 @@
+
+## Where the samples will be written
+save_data: experiment_2/run/example
+## Where the vocab(s) will be written
+src_vocab: experiment_2/run/example.vocab.src
+tgt_vocab: experiment_2/run/example.vocab.tgt
+# Prevent overwriting existing files in the folder
+overwrite: False
+
+rnn_size: 100
+train_steps: 5000
+learning_rate_decay: 1.0
+word_vec_size: 300
+encoder_type: brnn
+optim: adadelta
+batch_size: 20
+# Corpus opts:
+data:
+    corpus_1:
+        path_src: experiment_2/src_train_tagged.txt
+        path_tgt: experiment_2/tgt_train_tagged.txt
+    valid:
+        path_src: experiment_2/src_valid_tagged.txt
+    test:
+        path_src: experiment_2/src_test_tagged.txt
+
+src_vocab: experiment_2/run/example.vocab.src
+tgt_vocab: experiment_2/run/example.vocab.tgt
+
+# Train on a single GPU
+world_size: 1
+gpu_ranks: [0]
+
+# Where to save the checkpoints
+save_model: experiment_2/run/model
+save_checkpoint_steps: 5000
+valid_steps: 50
+tensorboard: true
+tensorboard_log_dir: logs
