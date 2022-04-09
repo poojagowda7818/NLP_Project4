@@ -10,7 +10,7 @@ overwrite: False
 
 rnn_size: 100
 train_steps: 100
-learning_rate_decay: 0.01
+learning_rate_decay: 1.0
 word_vec_size: 300
 encoder_type: brnn
 optim: adadelta
