@@ -8,6 +8,13 @@ tgt_vocab: experiment_1/run/example.vocab.tgt
 # Prevent overwriting existing files in the folder
 overwrite: False
 
+rnn_size: 100
+train_steps: 100
+learning_rate_decay: 1.0
+word_vec_size: 300
+encoder_type: brnn
+optim: adadelta
+batch_size: 20
 # Corpus opts:
 data:
     corpus_1:
