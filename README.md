@@ -12,20 +12,22 @@
     a) Transformer models , 
     b) amount of data affect the learning of irregular past tense forms
     
-       
 
-# Steps to be added for following topics:
-1)!pip install OpenNMT-py
+1) To successfully run the implementation please follow steps respective each objective:
+# Experiment Replication
+Steps to run the experiment:
+1) Please download the "NLP_Project4_replication.ipynb" notebook.
+2) Create "experiment_1" and "experiment_2" folder.
+3) Upload the "config_exp1.yaml","config_exp2.yaml", and "english_merged.txt".
+4) Run the respective the replicated experiments with specific cmds mentioned in the notebook.
 
-2)!onmt_build_vocab -config config-exp1.yaml -n_sample 10000 
-
-3)!onmt_train -config config-exp1.yaml
-
-4)!onmt_translate -model experiment_1/run/model_step_1000.pt -src experiment_1/src_test.txt -output experiment_1/test-decoded.txt -gpu 0 -verbose -beam_size 12 
-
-5)  import tensorboard
-    %load_ext tensorboard
-    %tensorboard --logdir logs
+# Experiment Direction - Direction1
+Steps to run the experiment direction1:
+1) Please download the "NLP_Project4_Transformers.ipynb" notebook.
+2) Create "experiment_1" folder.
+3) Upload the "english_merged.txt" file.
+4) Run the respective experiment direction with mentioned cmds.
+# Experiment Direction - 
         
 
 
