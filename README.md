@@ -12,8 +12,6 @@
     a) Transformer models , 
     b) amount of data affect the learning of irregular past tense forms
     
-
-1) To successfully run the implementation please follow steps respective each objective:
 # Experiment Replication
 Steps to run the experiment:
 1) Please download the "NLP_Project4_replication.ipynb" jupyter notebook.
