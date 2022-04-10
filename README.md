@@ -9,8 +9,8 @@
 # You can find two directory as follows:
 1) Experiment_replication
 2) Experiment_direction
-    a) Transformer models , 
-    b) amount of data affect the learning of irregular past tense forms
+    1) Direction1 - Transformer models
+    2) Direction2 - amount of data affect the learning of irregular past tense forms
     
 # Experiment Replication
 Steps to run the experiment:
