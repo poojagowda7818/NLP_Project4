@@ -8,9 +8,7 @@
 
 # You can find two directory as follows:
 1) Experiment_replication
-    1) experiment1
-    2) experiment2
-3) Experiment_direction
+2) Experiment_direction
     1) Direction1 - Transformer models
     2) Direction2 - amount of data affect the learning of irregular past tense forms
     
