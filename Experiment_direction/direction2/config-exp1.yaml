@@ -9,8 +9,8 @@ tgt_vocab: experiment_1/run/example.vocab.tgt
 overwrite: False
 
 rnn_size: 100
-train_steps: 100
-learning_rate_decay: 0.01
+train_steps: 5000
+learning_rate_decay: 1.0
 word_vec_size: 300
 encoder_type: brnn
 optim: adadelta
@@ -32,8 +32,7 @@ gpu_ranks: [0]
 
 # Where to save the checkpoints
 save_model: experiment_1/run/model
-save_checkpoint_steps: 500
-train_steps: 1000
-valid_steps: 500
+save_checkpoint_steps: 5000
+valid_steps: 100
 tensorboard: true
 tensorboard_log_dir: logs
